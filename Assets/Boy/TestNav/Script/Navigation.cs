@@ -1,3 +1,4 @@
+using StarterAssets;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -30,7 +31,7 @@ public class Navigation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.E))
         {
             Cursor.lockState = CursorLockMode.None;
         }
@@ -71,7 +72,7 @@ public class Navigation : MonoBehaviour
         for (int i = 0; i < Buttons.Length; i++)
         {
             int I = i;
-            Buttons[I].onClick.AddListener(() => setpart(I));
+            Buttons[I].onClick.AddListener(() => tp(I));
         }
         DistText.gameObject.SetActive(true);
     }
@@ -82,6 +83,12 @@ public class Navigation : MonoBehaviour
         nav.SetDestination(Target.position);
         line.enabled = true;
         DistText.gameObject.SetActive(true);
+    }
+    public void tp(int i)
+    {
+        transform.parent.GetComponent<ThirdPersonController>().enabled = false;
+        transform.parent.position = Targets[i].position;
+        transform.parent.GetComponent<ThirdPersonController>().enabled = true;
     }
     public void DrawPath()
     {

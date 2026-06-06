@@ -12,12 +12,12 @@ public class UIControl : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && !_isPanelActive)
+        if (Input.GetKey(KeyCode.E) && !_isPanelActive)
         {
             uiPanel.SetActive(true);
             _isPanelActive = true;
         }
-        else if (Input.GetKeyUp(KeyCode.Escape) && _isPanelActive)
+        else if (Input.GetKeyUp(KeyCode.E) && _isPanelActive)
         {
             uiPanel.SetActive(false);
             _isPanelActive = false;
