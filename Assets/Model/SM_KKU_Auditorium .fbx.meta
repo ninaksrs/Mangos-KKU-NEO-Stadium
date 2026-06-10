@@ -3,7 +3,127 @@ guid: fc712a212d80f85489bd9314cef4420d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LargeTileFloor1
+    second: {fileID: 2100000, guid: 2ada0012650adbc44a41555356ddeaf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Black
+    second: {fileID: 2100000, guid: 9dd0027446e74104aa5c9856b0bc6f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Ceiling1
+    second: {fileID: 2100000, guid: 3ef3d6ead6ffcbe44a4c6c78ff1ce68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Cement
+    second: {fileID: 2100000, guid: 7a933fce1acbfca44b9eefdc9a65e48f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_GlassDoor
+    second: {fileID: 2100000, guid: 0c07891c8ae3ed84088c8847264014e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_GoldLines
+    second: {fileID: 2100000, guid: c46611a453d18c245ab969fa496230a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_Grey
+    second: {fileID: 2100000, guid: 41966bbec407d2b4482a88f111d5508c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_StageWall1
+    second: {fileID: 2100000, guid: 1fccc4a4a071fc245895374dc2f929b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_WallCream
+    second: {fileID: 2100000, guid: 531c5b00ce5fe664c8c03844a11b3e42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_WallDarkGrey
+    second: {fileID: 2100000, guid: 2244dabfe22a5514abb673c058d46dfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_WallGreyPattern1
+    second: {fileID: 2100000, guid: bdc05598f4a58794d969f0458ff71abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_WallWhite
+    second: {fileID: 2100000, guid: f124a6d65ed5d50448c603658c19bc92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_WoodWhite
+    second: {fileID: 2100000, guid: 4b499149c04e8e9459e3fcc86fcc0af4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofPoll
+    second: {fileID: 2100000, guid: f6a1fd00c27061545985c732a7dbc558, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_GreyFloor
+    second: {fileID: 2100000, guid: 601a4cea727f312438f5bd460cb15aa3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tex_OakWood
+    second: {fileID: 2100000, guid: b8412b219b9023744b1bd5634855bf60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_000]1'
+    second: {fileID: 2100000, guid: 692c2ffbfd921724da83b4cb2a08be2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_005]1'
+    second: {fileID: 2100000, guid: 281e11f2f3043ff4c9ad6608300e253e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_008]5'
+    second: {fileID: 2100000, guid: 0a78bc9b47f70084fbbe7b185fd38f85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_D02]'
+    second: {fileID: 2100000, guid: 98c42ecc69d40b140b22a4b4f733967b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal_Corrogated_Shiny]'
+    second: {fileID: 2100000, guid: e36026b36c764ab47a1f30314f84fd59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing_Metal_Standing_Seam_Red]'
+    second: {fileID: 2100000, guid: 2203e7701cf8fce448ee048753eb1639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Stone_Brushed_Khaki]1'
+    second: {fileID: 2100000, guid: 07f25971136bb9d488ef93df8770b00e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: logo
+    second: {fileID: 2100000, guid: 1bece5924658d2b49a50d5dfd7ba9f82, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
